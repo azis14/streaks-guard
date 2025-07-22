@@ -19,7 +19,7 @@ TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 
 # Append the clock-in line to the README file
 # The '>>' operator appends to the file without overwriting it.
-echo "clock-in: $TIMESTAMP" >> "$README_FILE"
+echo "clock-in: $TIMESTAMP\\" >> "$README_FILE"
 
 echo "Appended clock-in to $README_FILE"
 
