@@ -29,6 +29,9 @@ git add .
 # Commit with the updated message and the changed README
 git commit -m "day $count"
 
+# Push the changes to the remote repository
+git push origin main
+
 # Update counter file for the next run
 echo $count > "$COUNTER_FILE"
 
